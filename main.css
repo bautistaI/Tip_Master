@@ -1,0 +1,68 @@
+@import url('http://fonts.googleapis.com/css?family=Prosto+One');
+
+body{
+  background: url('ricepaper_v3.png');
+}
+
+.main{
+  width: 100%;
+}
+
+.content{
+  margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Prosto One', cursive;
+  color: #FFF;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+  padding: 5px;
+  background: #bada55;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.greeting{
+  text-align: center;
+  font-family: 'Prosto One', cursive;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.calculations{
+  width: 55%;
+  margin: 2em auto;
+
+  text-align: center;
+  padding: 2em;
+}
+
+.bill_info, .percentage, #slideVal{
+  font-family: 'Prosto One', cursive;
+}
+
+.bill_info input{
+  font-size: 18px;
+}
+
+h2, #tip{
+  background: #FFF;
+  padding: 5px;
+  font-family: 'Prosto One', cursive;
+  width: 60%;
+  margin: 1em auto;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+
+
+#logo{
+ margin: 0 0 0 13em;
+}
+
+
+
+
+

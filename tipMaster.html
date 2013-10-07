@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+<link rel="stylesheet" href="main.css">
+<meta name="description" content="tip master" />
+<meta charset=utf-8 />
+<title>Tip Master</title>
+</head>
+<body>
+  <div class="main">
+    <div class="content">
+      <h1>Tip Master</h1>
+      <section>
+        <div class="greeting">
+          <p>
+            Enter your bill amount below and move the slider to select your desire tip percentage.<br> Remember! don't be cheap!
+          </p>
+        </div>
+        <div class="calculations">
+          <div class="bill_info">
+            <p>Enter your bill amount: $<input type="text" id="bill" onfocus="this.value=''"></p>
+          </div>
+          <p class="percentage">Select your Tip Percentage:</p> 
+          <input id="selectRange" type="range" min="0" max="100" value="0" step="1" onchange="tipCalculate(this.value, 'bill')">
+          <div id="slideVal">0%</div>
+          <h2>Tip to leave = <span id="tip"></span></h2>
+        </div>
+      </section>
+      <div id="logo" title="thank you for your tip">
+        <img src="logo.png" alt="waitress">
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
